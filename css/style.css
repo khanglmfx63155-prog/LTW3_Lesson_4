@@ -1,0 +1,149 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f8fb;
+  margin: 0;
+  padding: 0;
+}
+
+#product-ls {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  width: 800px;
+  padding: 0 40px 40px;
+  margin: 0 auto;
+}
+
+.item {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+.item img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.item button {
+  background: hotpink;
+  border: none;
+  padding: 6px 12px;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+}
+nav {
+  margin-top: 8px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-right: 15px;
+}
+
+nav a.active {
+  background: #e6f0ff;
+  color: #2b64b1;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f8fb;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+header {
+  background: #2b64b1;
+  color: white;
+  padding: 15px 30px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav {
+  margin-top: 8px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-right: 15px;
+}
+
+nav a.active {
+  background: #e6f0ff;
+  color: #2b64b1;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.title {
+  text-align: center;
+  width: 800px;
+  margin: 0 auto;
+  border-bottom: 3px solid black;
+  margin-bottom: 20px;
+  padding-bottom: 5px;
+  margin-top: 15px;
+  font-size: 35px;
+}
+.cart-table {
+  width: 800px;
+  margin: 0 auto;
+  border-collapse: collapse;
+  background: white;
+}
+
+.cart-table th,
+.cart-table td {
+  border: 1px solid #ccc;
+}
+
+button {
+  background-color: #307fc4;
+  color: white;
+  border-radius: 5px;
+}
+
+.specialbutton {
+  background-color: #dc3b89;
+  color: white;
+  border-radius: 5px;
+}
+
+.front {
+  margin: 0 auto;
+  width: 1600px;
+  height: 650px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../asset/background.png");
+
+  background-size: cover;
+}
+
+ul {
+  list-style-position: inside; /* Dấu chấm nằm trong vùng nội dung */
+  padding-left: 10px; /* Giảm khoảng cách bên trái */
+  margin-left: 0; /* Loại bỏ margin trái mặc định */
+}
+
+.fitContent {
+  width: fit-content;
+  margin: 0 auto;
+}
+.marginContent {
+  margin-bottom: 50px;
+  padding-top: 55px;
+}
+.Chu {
+  font-size: 25px;
+  color: white;
+}
